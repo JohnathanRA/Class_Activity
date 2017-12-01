@@ -11,3 +11,9 @@ struct Reactivo{
 
 struct Reactivo preguntas[30];
 struct Reactivo examen[10];
+
+
+while(!feof(archivo)){
+fscanf(archivo, "%s", preguntas[i].pregunta);
+}
+
